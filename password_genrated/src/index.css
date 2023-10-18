@@ -1,0 +1,52 @@
+:root {
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    font-weight: 400;
+    color-scheme: light dark;
+    color: rgba(255, 255, 255, 0.87);
+    background-color: #242424;
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%;
+}
+
+.container {
+    width: 60%;
+    margin: 0 auto;
+    background-color: grey;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+}
+
+.form input {
+    width: 80%;
+    height: 30px;
+    border-radius: 10px 0 0 10px;
+    border: none;
+    padding: 10px;
+    font-size: 18px;
+}
+
+.form button {
+    width: auto;
+    height: auto;
+    padding: 18px;
+    border-radius: 0 10px 10px 0;
+    border: none;
+    cursor: pointer;
+    background-color: blueviolet;
+}
+
+.mt-20 {
+    margin-top: 20px;
+}
+
+.flex {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 3;
+}
